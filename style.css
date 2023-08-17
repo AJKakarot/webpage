@@ -75,12 +75,13 @@ box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
 
 
 .arrow-icons{
-    margin-top: 40px;
-    display: flex;
+    margin-top: 20px;
+    margin-right: px ;
+    
 }
 .arrow-icons img{
     width: 40px;
-    margin-right:25px;
+    margin-right:20px;
 }
 
 .social-links{
@@ -134,4 +135,9 @@ body{
     padding-top:300px;
     fix-direction:column
 
+}
+
+#back{
+    position: relative;
+    margin-left: 40px;
 }
