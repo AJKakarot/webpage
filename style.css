@@ -28,9 +28,6 @@
         mix-blend-mode: color-burn;
     }
 
-    
-    
- 
     nav{  
         flex:1;
         padding-left: 60px;
@@ -76,16 +73,6 @@ box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
 
 }
 
- 
-
-
-
-
-
-    
-
-
-
 
 .arrow-icons{
     margin-top: 40px;
@@ -95,15 +82,6 @@ box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
     width: 40px;
     margin-right:25px;
 }
-
-
-
-
-
-
-
-
-
 
 .social-links{
     transform: rotate(-90deg);
@@ -152,4 +130,8 @@ body{
     
 }
 
+@media screen and(max-width:767px).container .content {
+    padding-top:300px;
+    fix-direction:column
 
+}
